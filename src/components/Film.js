@@ -5,11 +5,11 @@ const Film = ({name, url}) => {
   return (
     <>
         <li>
-            <a href={url}>{name}</a>
+            <a rel="nowt" target="_blank" href={url}>{name}</a>
         </li>
         
     </>
-  )
+  );
 
 }
 
