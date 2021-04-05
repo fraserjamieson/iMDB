@@ -1,13 +1,12 @@
 import React from "react";
 
-const Film = ({name, url}) => {
+const Film = ({film}) => {
 
   return (
     <>
         <li>
-            <a rel="nowt" target="_blank" href={url}>{name}</a>
+            <a href={film.url}>{film.name}</a>
         </li>
-        
     </>
   );
 
